@@ -53,7 +53,8 @@ def math_quiz():
             useranswer = int(useranswer)
 
         except ValueError as e:
-            print("You have entered an incorrect input (i.e float value or an alphabet), please input an integer number as your answer")
+            print("""You have entered an incorrect input (i.e float value or an alphabet), 
+                  please input an integer number as your answer""")
             print(f"Actual Error: {e}")
         
         else:
